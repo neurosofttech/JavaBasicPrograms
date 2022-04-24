@@ -5,9 +5,13 @@ public class ReverseStringDemo {
         String reverse = ""; // Objects of String class
 
 
-        String originalString = "MADAM";
+        String originalString = "ABBA";
+
+
 
         int length = originalString.length();
+       // System.out.println(originalString.length());
+
         for (int i = length - 1; i >= 0; i--) {
             reverse = reverse + originalString.charAt(i);
 
@@ -16,7 +20,7 @@ public class ReverseStringDemo {
         System.out.println(reverse);
 
 
-       if (originalString.equals(reverse))
+      if (originalString.equals(reverse))
            System.out.println("This is a palindrome.");
         else
             System.out.println("This isn't a palindrome.");

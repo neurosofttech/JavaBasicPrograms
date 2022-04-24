@@ -6,6 +6,7 @@ public class ReverseNumberDemo {
         int Originalnumber=4542;//It is the number variable to be checked for reverse
 
         temp=Originalnumber;
+
         while(Originalnumber>0){
 
             rev=(rev*10)+(Originalnumber%10);
@@ -13,10 +14,10 @@ public class ReverseNumberDemo {
         }
         System.out.println(rev);
 
-        if(temp==rev)
+       /* if(temp==rev)
             System.out.println("palindrome number ");
         else
-            System.out.println("not palindrome");
+            System.out.println("not palindrome");*/
     }
 }
 
